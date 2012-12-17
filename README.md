@@ -1,24 +1,38 @@
-# Alertify::Rails
+# alertify-rails
 
-TODO: Write a gem description
+This gem provides [alertify.js](http://fabien-d.github.com/alertify.js) (v0.2.12) for Rails.
+
 
 ## Installation
 
-Add this line to your application's Gemfile:
+In your Gemfile:
 
-    gem 'alertify-rails'
+```ruby
+gem 'alertify-rails'
+```
 
-And then execute:
+or system wide:
 
-    $ bundle
+```console
+$ gem install alertify-rails
+```
 
-Or install it yourself as:
-
-    $ gem install alertify-rails
 
 ## Usage
 
-TODO: Write usage instructions here
+The alertify files will be added to the asset pipeline and available for you to use. Add the following line to `app/assets/javascripts/application.js`
+
+```javascript
+//= require alertify
+```
+
+In order to get the CSS, add the following line to `app/assets/stylesheets/application.css.scss`
+
+```css
+/*
+ *= require alertify
+ */
+```
 
 ## Contributing
 
@@ -27,3 +41,6 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+Copyright &copy; 2012 Rudolf Schmidt, released under the MIT license
+
