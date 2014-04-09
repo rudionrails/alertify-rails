@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Alertify::Rails::VERSION
   gem.authors       = ["Rudolf Schmidt"]
 
-  gem.description   = %q{Use Alertify.js with Rails 3}
-  gem.summary       = %q{This gem provides the Alertify.js driver for Rails 3 applications}
+  gem.description   = %q{Use Alertify.js with Rails 3 and 4}
+  gem.summary       = %q{This gem provides the Alertify.js driver for Rails 3 and 4 applications}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
