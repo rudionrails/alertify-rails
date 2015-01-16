@@ -1,6 +1,6 @@
 # alertify-rails
 
-This gem provides [alertify.js](http://fabien-d.github.com/alertify.js) (v0.3.11) for Rails.
+This gem provides [alertify.js](https://github.com/alertifyjs/alertify.js) (v0.3.15) for Rails.
 
 
 ## Installation
@@ -26,12 +26,11 @@ The alertify files will be added to the asset pipeline and available for you to 
 //= require alertify
 ```
 
-In order to get the CSS, add the following line to `app/assets/stylesheets/application.css.scss`
+In order to get the CSS, add the following line to `app/assets/stylesheets/application.scss`
 
 ```css
-/*
- *= require alertify
- */
+@import 'alertify/core';
+@import 'alertify/themes/default'; // Chose one theme of default, bootstrap and bootstrap3
 ```
 
 ## Contributing
