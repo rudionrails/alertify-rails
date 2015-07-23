@@ -32,6 +32,12 @@ In order to get the CSS, add the following line to `app/assets/stylesheets/appli
 @import 'alertify/core';
 @import 'alertify/themes/default'; // Chose one theme of default, bootstrap and bootstrap3
 ```
+If that doesn't work, try:
+
+```css
+@import 'alertify.core';
+@import 'alertify.default';
+```
 
 ## Contributing
 
@@ -42,4 +48,3 @@ In order to get the CSS, add the following line to `app/assets/stylesheets/appli
 5. Create new Pull Request
 
 Copyright &copy; 2012 Rudolf Schmidt, released under the MIT license
-
