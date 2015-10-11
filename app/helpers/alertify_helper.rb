@@ -4,7 +4,7 @@ module AlertifyHelper
   def alertify_flash
     jsReturn = javascript_tag()
     flash.each do |type, message|
-      type = type.to_sym
+      type = type.to_sym unless type.nil?
       # Skip empty messages, e.g. for devise messages set to nothing in a locale file.
       next if message.blank?
 
